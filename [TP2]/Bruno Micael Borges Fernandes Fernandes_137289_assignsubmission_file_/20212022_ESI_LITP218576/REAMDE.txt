@@ -1,0 +1,7 @@
+REAMDE de videoteca.sh
+
+O script de bash videoteca.sh, gera uma estrutura de pastas destinada a armazenar informaçao sobre filmes
+
+Para descompactar o ficheiro para uma pasta a escolha substituir o caminho /home/Users-MBP/Documents/Videoteca/ pelo pretendido
+
+Contem alguns comandos adicionais de manipulação como por exemplo contar a quantidade de pastas e pesquisar por uma palavra especifica

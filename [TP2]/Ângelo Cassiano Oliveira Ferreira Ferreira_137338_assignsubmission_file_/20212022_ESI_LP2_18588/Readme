@@ -1,0 +1,6 @@
+1: Colocar a script (files.sh) na diretoria /home.
+2: Abrir o terminal e entrar no Ambiente de trabalho para dar direitos de escrita leitura e execução á script.
+3: No unzip alterar a diretoria para a pasta de destino pretendida.
+4: Deverá alterar o nome do utilizador 'Cassiano' para o nome do utilizador do professor para não existirem problemas na execução
+5: No comando para escolher a primeira letra do texto para a codificar e descodificar deveŕa tambem ser alterado o caminho. informo que neste momento o ficheiro codificado está direcionado para a pasta da letra que foi codificada.
+6: Informo tambem que comentei o comando wget -r, que fazia o download do site completa para evitar que demorasse muito tempo na realização do download.

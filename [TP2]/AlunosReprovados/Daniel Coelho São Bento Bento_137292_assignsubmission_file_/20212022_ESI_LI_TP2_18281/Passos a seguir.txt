@@ -1,0 +1,35 @@
+1º Depois de configurar o código conforme o desejado, abrir o terminal linux;
+
+
+
+2º Configurar o seu Script de modo a ser concretizado é necessário entrar na diretoria onde este se encontra e utilizar o código 
+
+		chmod +x <nome_script>
+
+   que lhe dará a permissão necessária para o executar;
+
+
+
+3º Correr o Script, inserindo a diretoria onde se encontra e o seu nome
+
+		./<Diretoria>/<nome_script> ;
+
+
+
+4º Inserir a informação desejada nos ficheiros criados pelo Script;
+
+
+
+5º Caso queira comprimir o ficheiro utilize o comando
+
+		zip <nome_zip>.zip <nome_ficheiro>
+
+   colocando o nome do ficheiro que quer comprimir em <nome_ficheiro> e o nome com que quer que o zip fique <nome_zip>;
+
+
+
+6º Caso queira descomprimir um zip utilize o comando
+
+		unzip <nome_zip>.zip
+
+   bastando colocar o nome do zip;

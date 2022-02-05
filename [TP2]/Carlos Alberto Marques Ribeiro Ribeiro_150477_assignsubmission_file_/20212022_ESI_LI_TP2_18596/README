@@ -1,0 +1,97 @@
+Trabalho pratico realizado no âmbito da Licenciatura Engenharia Sistemas Informáticos - Pós-Laboral
+
+Disciplina: Laboratórios de Informática
+N. Aluno:   a18596 
+Aluno:      Carlos Alberto Marques Ribeiro
+
+TP2 - Manipulação de pastas/ficheiros
+
+NOTAS: 
+- Necessário ter componente “tree” instalado no pc que será executada durante a  Script.
+- Por questões de segurança não foi colocado em codigo, mas pode ser necessário 
+dar permissões manuais de execução ás duas Scripts (chmod +x nome_script.sh)
+
+#########################################################################################################################################
+
+Durante a execução da Script irão ser listadas as diretorias/ficheiros da seguinte forma:
+
+   ./VIDEOTECA
+   | 
+   |---Acção
+   |   |
+   |   |__Velocidade Furiosa
+   |       |
+   |       |__review_Velocidade Furiosa.txt 
+   |
+   |---Terror
+   |   |
+   |   |__Anabele
+   |       |
+   |       |__review_Anabele.txt
+   |
+
+Onde:
+   VIDEOTECA                      -> Nome da Diretoria Base (1ª Nível)
+   Acção                          -> Nome da Respetiva categoria (2º Nível)
+   Velocidade Furiosa             -> Nome do filme (3º Nível)
+   review_Velocidade Furiosa.txt  -> Detalhes do Filme/Conteúdo (4º Nível)
+
+###########################################################################################################################################
+
+Conteúdo do .zip enviado, via plataforma Moodle
+
+   ./ 20212022_ESI_LI_TP2_a18596.zip
+   |
+   |---README
+   |
+   |---main.zip
+   |       |
+   |       |__VIDEOTECA
+   |       |         |   	
+   |       |         |__(Conteúdo dos Filmes)
+   |       |
+   |       |__ videoteca_script.sh
+   |
+   |--Script.sh
+   |   
+
+Devido á importação este vai em .zip, no entanto faz o solicitado de comprimir/descomprimir com a pasta main.
+
+##############################################################################################################################################
+
+--> START DA VIDEOTECA <--
+
+1)	Executar SCRIPT.SH
+    a.	Esta irá solicitar se pretende comprimir ou descomprimir todo o conteúdo.
+    b.	No caso de Descomprimir, é redirecionado automaticamente para a script “principal”
+
+2)	Script principal encontra-se dentro da pasta MAIN com o nome videoteca_script.sh
+
+##############################################################################################################################################
+
+Descrição das Principais Funções da Script principal:
+
+1)	Menu
+    a.	Listagem de opções para o utilizador
+
+2)	Listar Filmes (FUNCTION_LIST_FILMES_MENU)
+    a.	Encarregue por listar as diretorias e conteúdo dos filmes
+
+3)	Adicionar novos Filmes (FUNCTION_ADD_FILMES)
+    a.	Cria a Pasta da categoria e o ficheiro com detalhes do filme
+        i.	Ficheiro têm a seguinte syntax: review_XXXXXX.txt
+
+4)	Eliminar Filmes (FUNCTION_DEL_FILMES)
+    a.	Elimina filmes 
+
+5)	Edição de Filmes (FUNCTION_EDIT_FILMES)
+    a.	Edita o Nome
+    b.	Edita o Conteúdo
+
+6)	Eliminar Categorias (FUNCTION_DEL_CATEG)
+    a.	Eliminação da categoria com validação se vazia
+
+7)	Edição nome da categoria (FUNCTION_EDIT_CATEG)
+    a.	Edita o nome da categoria, independentemente do conteúdo
+
+

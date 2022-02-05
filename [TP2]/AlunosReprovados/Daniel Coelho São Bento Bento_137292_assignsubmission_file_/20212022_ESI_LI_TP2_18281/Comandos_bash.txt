@@ -1,0 +1,19 @@
+COMANDOS_BASH:
+
+#!/bin/bash_____________________________#indicar a linguagem do ficheiro
+
+cd______________________________________#mover para a diretoria raiz do computador
+
+cd ./<"Directory">______________________#mover para uma diretoria que se encontra dentro da diretoria raiz
+
+cd <Videoteca>__________________________#só é executável quando a subdiretoria identificada se encontra dentro da diretoria onde estamos
+
+mkdir <Pasta>___________________________#criar uma pasta dentro da diretoria onde se encontra, ficando com o nome desejado
+
+nano <Ficherio>_________________________#cria um ficheiro de texto, este pode ser editado no momento em que é criado
+
+zip <nome_zip>.zip <nome_ficheiro>______#comprimir a pasta identificada (<nome_ficheiro>) ficando esta com o nome inserido em <nome_zip>
+
+unzip <nome_zip>.zip____________________#descomprimir a pasta <nome_zip>.zip
+
+chmod +x <nome_script>__________________#dar permissão ao utilizador para executaro Script

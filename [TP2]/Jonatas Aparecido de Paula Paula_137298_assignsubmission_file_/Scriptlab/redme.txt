@@ -1,0 +1,31 @@
+# Curso - Engenharia em Sistemas Informáticos
+# cadeira - Laboratório de Informática
+# TP2 - Trabalho Prático 2
+# Docente - Marta Martinho
+# Turma - ESI(PL)
+# Ano Letivo - 2021/2022 - 1º Semestre
+
+Instruções
+
+1º Passo - Executar o download das Script no moodle e guardar em (Meu Documentos)
+
+2º Passo - Abrir o Programa Terminal no Linux
+
+3º Passo  - No terminal habilitar as Script com os comando
+	* chmod a+x scriptlab.sh
+	* chmod a+x scriptlabzip.sh
+	* chmod a+x scriptlabunzip.sh
+
+4º Passo - Ações no Terminal
+	* Navegar com os "comandos CD e LS" até a paste que guardou as script
+	* Após executar através do comando ./scriptlab.sh (Criar da Videoteca)	
+	* Após executar através do comando ./scriptlabzip.sh (Comando de Compactar)
+	* Após executar através do comando ./scriptlabunzip.sh (Comando de Descompactar) 
+
+
+
+
+
+
+
+
